@@ -1,37 +1,131 @@
 <!DOCTYPE html>
 <html lang="tr">
 <head>
-  <meta charset="UTF-8">
-  <title>Zümrüt Saat | Zamansız Şıklık</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <style>
-    body{margin:0;font-family:Arial;background:#f5f5f5;color:#222}
-    header{background:#0f3d2e;color:#fff;padding:24px;text-align:center}
-    .container{max-width:1000px;margin:40px auto;padding:16px}
-    .kart{background:#fff;border-radius:12px;padding:24px;box-shadow:0 4px 12px rgba(0,0,0,.1)}
-    img{max-width:100%;border-radius:12px;margin:16px 0}
-    footer{text-align:center;margin:40px 0;color:#777}
-    .durum{font-weight:bold;margin-top:16px}
-  </style>
+<meta charset="UTF-8">
+<title>Zümrüt Saat | Zamansız Şıklık</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+
+<style>
+body{
+  margin:0;
+  font-family:'Montserrat',sans-serif;
+  background:#0b0b0b;
+  color:#eaeaea;
+}
+
+header{
+  padding:60px 20px;
+  text-align:center;
+  border-bottom:1px solid rgba(255,215,0,.15);
+}
+
+header h1{
+  font-family:'Playfair Display',serif;
+  font-size:40px;
+  margin:0;
+  letter-spacing:2px;
+}
+
+header p{
+  margin-top:10px;
+  color:#c9b26b;
+  font-size:16px;
+}
+
+.container{
+  max-width:1000px;
+  margin:60px auto;
+  padding:20px;
+}
+
+.card{
+  background:linear-gradient(145deg,#111,#1a1a1a);
+  border-radius:20px;
+  padding:40px;
+  box-shadow:0 20px 50px rgba(0,0,0,.6);
+}
+
+.card h2{
+  font-family:'Playfair Display',serif;
+  font-size:28px;
+  margin-top:0;
+}
+
+.card img{
+  width:100%;
+  max-width:420px;
+  display:block;
+  margin:30px auto;
+  border-radius:16px;
+}
+
+.card p{
+  line-height:1.7;
+  color:#d6d6d6;
+}
+
+ul{
+  margin-top:20px;
+}
+
+ul li{
+  margin-bottom:8px;
+}
+
+.badge{
+  margin-top:30px;
+  padding:14px;
+  text-align:center;
+  border:1px solid #c9b26b;
+  border-radius:12px;
+  color:#c9b26b;
+  font-weight:500;
+  letter-spacing:1px;
+}
+
+footer{
+  text-align:center;
+  padding:40px 20px;
+  color:#777;
+  font-size:14px;
+}
+</style>
 </head>
+
 <body>
 
 <header>
-  <h1>Zümrüt Saat</h1>
+  <h1>ZÜMRÜT SAAT</h1>
   <p>Zamansız Şıklık</p>
 </header>
 
 <div class="container">
-  <div class="kart">
+  <div class="card">
     <h2>Seiko 5 Sports Otomatik Erkek Saat</h2>
+
     <img src="https://i.imgur.com/7yUvePI.png" alt="Seiko 5 Sports Saat">
-    <p>Otomatik mekanizma, çelik kasa ve zamansız tasarım.</p>
-    <p class="durum">🕒 Yakında online satış</p>
+
+    <p>
+      Seiko’nun ikonik 5 Sports koleksiyonuna ait bu otomatik saat,
+      sportif çizgileri ve zamansız tasarımıyla günlük kullanımda
+      güçlü bir stil sunar.
+    </p>
+
+    <ul>
+      <li>Otomatik mekanizma</li>
+      <li>Paslanmaz çelik kasa ve kordon</li>
+      <li>Gün & tarih göstergesi</li>
+      <li>100 metre su geçirmezlik</li>
+    </ul>
+
+    <div class="badge">🕒 YAKINDA ONLINE SATIŞ</div>
   </div>
 </div>
 
 <footer>
-  © 2025 Zümrüt Saat
+  © 2025 Zümrüt Saat — Tüm hakları saklıdır
 </footer>
 
 </body>
